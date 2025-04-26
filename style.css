@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+.navBar{
+    background-color: #868E96;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 16px;
+    font-size: 16px;
+    color:white;
+}
+.logo {
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 150px;
+    font-size: 1.25rem;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    font-size: small;
+    margin: 15px 180px 15px 0px;
+}
+.navLinks a {
+    padding: 1.6em 1em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks a:hover {
+    background-color: #343A40;
+    color: white;
+}
+
+.sec {
+    background-image: url('bg_1.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 7em 0;
+  
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    height:50vh;
+    width:180vh;
+    margin-left :90px;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+    margin:20px 30px 20px 30px;
+}
+
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color:white;
+}
+
+#btn1 {
+    color: #fff;
+    background-color: #00CA4C;
+    border-color: #00CA4C;
+    font-size: small;
+    padding: 10px 20px 10px 20px;
+    justify-content:left;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#exp {
+    font-size: 35px;
+    color:white;
+    opacity: 1;
+    margin-bottom:20px;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+.right{
+    background-color: white;
+    height:100%;
+    width:50%;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap:20px;
+    color:#404447;
+
+}
+
+p{
+    margin:15px 0px 15px 0px;
+    font-size: 10px;
+    font-weight:lighter;
+    color:#404447;
+}
+
+#btn2 {
+    color: #fff;
+    background-color: #00CA4C;
+    border-color: #00CA4C;
+    font-size: small;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+select, input[type="date"] {
+    width: 160px;         /* Increase width */
+    height: 38px;         /* Increase height */
+    font-size: 12px;      /* Larger text */
+    padding: 5px 10px;    /* Internal spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
